@@ -1,0 +1,70 @@
+.account {
+	padding: 60px 50px;
+
+	.account__content {
+		padding: 20px;
+
+		.account__card__wrapper {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			padding-bottom: 80px;
+	padding-right: 20%;
+			.account__balance__card {
+				background: $white;
+				box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+				border-radius: 2px;
+				width: 315px;
+				height: 179px;
+				padding: 20px;
+				color: $dark-color;
+				text-align: center;
+
+				.overview__card_title {
+					text-align: center;
+					font-size: 23px;
+					font-weight: 800;
+					padding-top: 18px;
+					padding-bottom: 30px;
+				}
+
+				div {
+					font-size: 40px;
+					font-style: normal;
+					color: $primary-color;
+					letter-spacing: 3px;
+					line-height: 55px;
+					font-weight: 800;
+				}
+			}
+		}
+		.add__card {
+			width: 315px;
+			height: 179px;
+
+			.add__card__surface {
+				width: 315px;
+				height: 179px;
+				left: 80px;
+				top: 0px;
+				border: 3px solid $border-color;
+				box-sizing: border-box;
+				border-radius: 5px;
+				text-align: center;
+				padding: 20px;
+				.add__card__title {
+					font-style: normal;
+
+					line-height: 26px;
+					padding-top: 10px;
+				}
+				div {
+					cursor: pointer;
+					color: $grey-color;
+					font-size: 80px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}

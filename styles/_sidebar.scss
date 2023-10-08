@@ -1,0 +1,117 @@
+@import 'config';
+
+.sidebar {
+	padding: 16px 0;
+	background-color: $primary-color;
+	grid-column: span 2 / span 2;
+	// height: 1024px;
+	width: 350px;
+	text-align: center;
+
+	.image {
+		margin-right: 70px;
+		padding: 30px;
+	}
+	.links {
+		padding: 0px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+
+
+.link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 5px 0;
+	width: 286px;
+	height: 52px;
+	padding: 2px;
+	font-size: 18px;
+	color: $light-color;
+	margin-bottom: 20px;
+
+	span {
+		padding: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&:hover {
+		background: #fff;
+		color: $primary-color;
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+	}
+	.icon {
+		margin-right: 20px;
+		font-size: 25px;
+	}
+}
+.active {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 5px 0;
+	margin-bottom: 20px;
+	width: 287px;
+	height: 52px;
+	background-color: #fff;
+	color: $primary-color;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	font-size: 18px;
+	span {
+		padding: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.icon {
+		margin-right: 20px;
+		font-size: 25px;
+	}
+}
+	}
+
+	.other {
+		padding-top: 120px;
+
+		.buttons {
+			a {
+				padding: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 18px;
+				color: $light-color;
+				.icon {
+					margin-right: 10px;
+					font-size: 25px;
+				}
+			}
+
+			button {
+				color: $primary-color;
+				border: none;
+				outline: none;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				width: 150px;
+				height: 10px;
+				padding: 20px 30px;
+				margin-top: 50px;
+				margin-left: 30px;
+				text-align: center;
+				border-radius: 100px;
+				.icon {
+					margin-right: 20px;
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}
